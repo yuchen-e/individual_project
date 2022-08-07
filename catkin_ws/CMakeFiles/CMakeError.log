@@ -1,0 +1,17 @@
+Determining if the include file pgm.h exists failed with the following output:
+Change Dir: /home/echo/catkin_ws/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d9295/fast && /usr/bin/make -f CMakeFiles/cmTC_d9295.dir/build.make CMakeFiles/cmTC_d9295.dir/build
+make[1]: 进入目录“/home/echo/catkin_ws/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_d9295.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_d9295.dir/CheckIncludeFile.cxx.o -c /home/echo/catkin_ws/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/echo/catkin_ws/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: pgm.h: 没有那个文件或目录
+    1 | #include <pgm.h>
+      |          ^~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_d9295.dir/build.make:66：CMakeFiles/cmTC_d9295.dir/CheckIncludeFile.cxx.o] 错误 1
+make[1]: 离开目录“/home/echo/catkin_ws/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_d9295/fast] 错误 2
+
+
+
